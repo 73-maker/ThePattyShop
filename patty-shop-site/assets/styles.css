@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a,
+button,
+summary {
+  transition: all 0.2s ease;
+}
+
+img {
+  display: block;
+}
+
+iframe {
+  display: block;
+}

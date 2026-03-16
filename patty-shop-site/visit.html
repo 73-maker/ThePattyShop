@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visit | The Patty Shop</title>
+  <meta name="description" content="Plan your visit to The Patty Shop in Vancouver, BC." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'sans-serif'] } } } }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="bg-[#FAF3ED] text-[#2C1810] font-sans">
+  <header class="bg-[#FAF3ED] shadow-md relative z-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex justify-between items-center h-32">
+        <a href="index.html"><img src="https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/3ee7c5eb-3ab7-45f2-83c6-3ce71423ed00/public" alt="The Patty Shop" class="h-28 py-2" /></a>
+        <nav class="hidden lg:flex items-center space-x-8">
+          <a href="menu.html" class="text-[#2C1810] hover:text-[#C67B3B] font-medium">Menu</a>
+          <a href="about.html" class="text-[#2C1810] hover:text-[#C67B3B] font-medium">About</a>
+          <a href="visit.html" class="text-[#C67B3B] font-semibold">Visit</a>
+          <a href="contact.html" class="text-[#2C1810] hover:text-[#C67B3B] font-medium">Contact</a>
+          <a href="visit.html" class="bg-[#C67B3B] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#A8652F] transition-colors">Get Directions</a>
+        </nav>
+        <button class="lg:hidden" data-landingsite-mobile-menu-toggle aria-label="Open mobile menu"><i class="fa-solid fa-bars text-2xl"></i></button>
+      </div>
+    </div>
+    <div class="lg:hidden hidden" data-landingsite-mobile-menu>
+      <div class="px-4 py-4 space-y-3 bg-[#FAF3ED] border-t border-[#E5D4C3]">
+        <a href="menu.html" class="block font-medium py-2 border-b border-[#E5D4C3]">Menu</a>
+        <a href="about.html" class="block font-medium py-2 border-b border-[#E5D4C3]">About</a>
+        <a href="visit.html" class="block font-medium py-2 border-b border-[#E5D4C3]">Visit</a>
+        <a href="contact.html" class="block font-medium py-2 border-b border-[#E5D4C3]">Contact</a>
+        <a href="visit.html" class="block bg-[#C67B3B] text-white text-center px-6 py-3 rounded-lg mt-4">Get Directions</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="bg-[#F5E9DD] py-20 md:py-28 text-center">
+      <div class="max-w-4xl mx-auto px-4">
+        <p class="uppercase tracking-[0.2em] text-[#C67B3B] font-semibold mb-4">Visit Us</p>
+        <h1 class="text-5xl md:text-6xl font-bold mb-6">Find The Patty Shop in Vancouver.</h1>
+        <p class="text-lg text-[#6B5D57]">Quick stop, easy pickup, and a local favourite worth the trip.</p>
+      </div>
+    </section>
+
+    <section class="pb-20">
+      <div class="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 mt-4">
+        <div class="bg-white rounded-2xl shadow-xl p-10 space-y-8">
+          <div class="flex items-start gap-4">
+            <div class="w-12 h-12 bg-[#C67B3B]/10 rounded-xl flex items-center justify-center"><i class="fa-solid fa-location-dot text-xl text-[#C67B3B]"></i></div>
+            <div><h2 class="text-xl font-bold text-[#2C1810]">Address</h2><p class="text-[#6B5D57] mt-2">4019 Macdonald Street<br/>Vancouver, BC V6L 2N8</p></div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="w-12 h-12 bg-[#C67B3B]/10 rounded-xl flex items-center justify-center"><i class="fa-solid fa-phone text-xl text-[#C67B3B]"></i></div>
+            <div><h2 class="text-xl font-bold text-[#2C1810]">Phone</h2><a href="tel:+16047382144" class="text-[#6B5D57] mt-2 inline-block">(604) 738-2144</a></div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="w-12 h-12 bg-[#C67B3B]/10 rounded-xl flex items-center justify-center"><i class="fa-solid fa-clock text-xl text-[#C67B3B]"></i></div>
+            <div><h2 class="text-xl font-bold text-[#2C1810]">Hours</h2><p class="text-[#6B5D57] mt-2"><span class="font-medium">Tuesday - Saturday:</span> 10:30 AM - 7:00 PM</p><p class="text-[#8B2E1F] mt-1"><span class="font-medium">Sunday & Monday:</span> Closed</p></div>
+          </div>
+          <div class="grid sm:grid-cols-2 gap-4 pt-4">
+            <a href="https://www.google.com/maps/dir/?api=1&destination=4019+Macdonald+Street+Vancouver+BC+V6L+2N8" class="bg-[#C67B3B] text-white px-6 py-4 rounded-lg font-semibold text-center hover:bg-[#A8652F] transition-colors">Get Directions</a>
+            <a href="tel:+16047382144" class="bg-[#8B2E1F] text-white px-6 py-4 rounded-lg font-semibold text-center hover:bg-[#6D2418] transition-colors">Call Now</a>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-xl overflow-hidden h-[460px]">
+          <iframe src="https://www.google.com/maps?q=4019+Macdonald+Street+Vancouver+BC+V6L+2N8&z=15&output=embed" width="100%" height="100%" style="border:0" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-[#2C1810] py-16">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div class="lg:col-span-2">
+        <img src="https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/3ee7c5eb-3ab7-45f2-83c6-3ce71423ed00/public" alt="The Patty Shop logo" class="h-24 mb-4" />
+        <p class="text-[#E8C5A0] text-lg max-w-md">Vancouver's iconic Jamaican patty shop. Family-run since 1979.</p>
+      </div>
+      <div>
+        <h3 class="text-white font-bold text-lg mb-4">Quick Links</h3>
+        <ul class="space-y-3">
+          <li><a href="menu.html" class="text-[#E8C5A0] hover:text-white">Menu</a></li>
+          <li><a href="about.html" class="text-[#E8C5A0] hover:text-white">About Us</a></li>
+          <li><a href="visit.html" class="text-[#E8C5A0] hover:text-white">Visit Us</a></li>
+          <li><a href="contact.html" class="text-[#E8C5A0] hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-white font-bold text-lg mb-4">Contact</h3>
+        <ul class="space-y-3">
+          <li class="text-[#E8C5A0]">4019 Macdonald St<br/>Vancouver, BC V6L 2N8</li>
+          <li><a href="tel:+16047382144" class="text-[#E8C5A0] hover:text-white">(604) 738-2144</a></li>
+          <li class="text-[#E8C5A0]">Tue-Sat: 10:30am - 7pm</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/main.js"></script>
+</body>
+</html>
